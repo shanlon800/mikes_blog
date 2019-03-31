@@ -14,3 +14,19 @@ const SecondPage = () => (
 )
 
 export default SecondPage
+
+
+// {
+//   allWordpressPost(filter: {wordpress_id: {eq: 10}}) {
+//     edges {
+//       node {
+//         id
+//         wordpress_id
+//         categories {
+//           id
+//         }
+//         content
+//       }
+//     }
+//   } 
+// }
